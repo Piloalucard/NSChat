@@ -1,5 +1,5 @@
 //Make connection
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect('https://nschat2022.herokuapp.com/');
 
 //Query DOOM
 var message = document.getElementById('msg');
